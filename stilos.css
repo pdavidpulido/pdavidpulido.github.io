@@ -1,8 +1,8 @@
-	.social ul {
+	div.social ul {
 		list-style: none;
 	}
  
-	.social ul li a {
+	div.social ul li a {
 		display: inline-block;
 		color:#fff;
 		background: #000;
