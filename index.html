@@ -1,108 +1,100 @@
-<! DOCTYPE html >
+<!DOCTYPE html>
 
-< html >
-< título > Repositorio Pedro David Pulido </ título >
-< meta  charset = " UTF-8 " >
-< meta  name = " viewport " content = " width = device-width, initial-scale = 1 " />
-< link  rel = " stylesheet " href = " https://www.w3schools.com/w3css/4/w3.css " />
-< link  rel = " stylesheet " href = " https://fonts.googleapis.com/css?family=Inconsolata " />
-< link  rel = " stylesheet " href = " assets / css / main.css " />
-< noscript > < link  rel = " stylesheet " href = " assets / css / noscript.css " /> </ noscript >
-< estilo >
-cuerpo ,  html {
-  altura : 100 % ;
-  familia de fuentes : "Inconsolata" , sans-serif;
+<html>
+<title>Repositorio Pedro Pulido</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata"/>
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
 }
 
-. bgimg {
-  posición de fondo : centro;
-  tamaño de fondo : cubierta;
-  background-image : url ( "/w3images/coffeehouse.jpg" );
-  altura mínima : 75 % ;
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
 }
 
-. menu {
-  pantalla : ninguna;
+.menu {
+  display: none;
 }
-</ estilo >
-< cuerpo >
+</style>
+<body>
 
-<! - Enlaces (sentarse en la parte superior) ->
-< div  class = " w3-top " >
-  < div  class = " w3-row w3-padding w3-black " >
-    < div  class = " w3-col s3 " >
-      < Un  href = " # " clase =" botón w3 w3-W3-bloque negro " > INICIO </ a >
-    </ div >
-    < div  class = " w3-col s3 " >
-      < Un  href = " #about " clase =" botón w3 w3-W3-bloque negro " > SOBRE MI </ a >
-    </ div >
-    < div  class = " w3-col s3 " >
-      < Un  href = " #WHERE " clase =" botón w3 w3-bloque w3-negro " > CONTACTO </ una >
-    </ div >
-  </ div >
-</ div >
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">INICIO</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">SOBRE MI</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">CONTACTO</a>
+    </div>
+  </div>
+</div>
 
-<! - Encabezado con imagen ->
-< header  class = " bgimg w3-display-container w3-grayscale-min " id = " inicio " >
-  < div  class = " w3-display-bottomleft w3-center w3-padding-large w3-hide-small " >
-    < span  class = " w3-tag " > Abierto de 6:00 a. m. a 5:00 p. m. </ span >
-  </ div >
-  < div  class = " w3-display-middle w3-center " >
-    < Lapso de  clase = " W3-texto-blanco " estilo =" font-size: 90px " > la < br > Cafe </ envergadura >
-  </ div >
-  < div  class = " w3-display-bottomright w3-center w3-padding-large " >
-    < span  class = " w3-text-white " > 15 Adr street, 5015 </ span >
-  </ div >
-</ encabezado >
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">15 Adr street, 5015</span>
+  </div>
+</header>
 
-<! - Agrega un color de fondo y texto grande a toda la página ->
-< div  class = " w3-arena w3-escala de grises w3-grande " >
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
 
-<! - Acerca del contenedor ->
-< div  class = " w3-container " id = " acerca de " >
-  < div  class = " w3-content " style = " max-width: 700px " >
-    < h5  class = " w3-center w3-padding-64 " > < span  class = " w3-tag w3-wide " > SOBRE MI </ span > </ h5 >
-    < p > Soy David Pulido, profesional en Ingeniería de Sistemas, cuento con más de 9 años de experiencia, los cuales me han dado la capacidad de investigar, diseñar, trabajar en equipo; Con un alto grado de liderazgo para los diferentes retos que se presenta en el campo laboral, con experiencia y habilidades en el manejo de enguaje de programación C #, .Net, SQL server, Coldfusion, Mega Architect. </ p >
-    < p > Experiencia en arquitectura empresarial en el dominio de procesos e infraestructura con Mega Architect. Habilidades para la gestión e implementación de proyectos y manejo de proveedores. Con conocimientos teórico-prácticos de los estándares del PMI y Metodologías Ágiles (SCRUM Master Certificado) en proyectos de tecnología y desarrollo en los sectores Bancarios. </ p >
-    < div  class = " w3-panel w3-leftbar w3-light-gray " >
-      < p > < i > "Utilice productos de la naturaleza por lo que vale, pero nunca demasiado temprano ni demasiado tarde". Fresco es el nuevo dulce. </ i > </ p >
-      < p > Chef, Cafetero y Propietario: Liam Brown </ p >
-    </ div >
-    < img  src = " /Img/David.jpg " style = " width: 100%; max-width: 1000px " class = " w3-margin-top " >
-  </ div >
-</ div >
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">SOBRE MI</span></h5>
+    <p> Soy David Pulido, profesional en Ingeniería de Sistemas, cuento con más de 9 años de experiencia, los cuales me han dado la capacidad de investigar, diseñar, trabajar en equipo; Con un alto grado de liderazgo para los diferentes retos que se presenta en el campo laboral, con experiencia y habilidades en el manejo de enguaje de programación C #, .Net, SQL server, Coldfusion, Mega Architect. </p>
+    <p> Experiencia en arquitectura empresarial en el dominio de procesos e infraestructura con Mega Architect. Habilidades para la gestión e implementación de proyectos y manejo de proveedores. Con conocimientos teórico-prácticos de los estándares del PMI y Metodologías Ágiles (SCRUM Master Certificado) en proyectos de tecnología y desarrollo en los sectores Bancarios. </p>
+    <img src="/Img/Pedro.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
 
-<! - Contenedor de contacto / área ->
-< div  class = " w3-container " id = " donde " style = " padding-bottom: 32px; " >
-  < div  class = " w3-content " style = " max-width: 700px " >
-    < h5  class = " w3-center w3-padding-48 " > < span  class = " w3-tag w3-wide " > CONTACTO </ span > </ h5 >
-    < span  class = " icon solid alt fa-sobre " > </ span >
-    < p > Correo: pdavidpulido@gmail.com </ p >
-    < span  class = " icon solid alt fa-phone " > </ span >
-    < p > Celular: 3507025768 </ p >
-  </ div >
-</ div >
-  
-<! - Contenido de la página final ->
-</ div >
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACTO</span></h5>
+    <p> Correo: pdavidpulido@gmail.com</p>
+    <p> Celular: 3507025768</p>
+  </div>
+</div>
+ 
+<!-- End page content -->
+</div>
 
-< guión >
-// Menú con pestañas
-function  openMenu ( evt ,  menuName )  {
-  var  i ,  x ,  tablinks ;
-  x  =  documento . getElementsByClassName ( "menú" ) ;
-  para  ( i  =  0 ;  i  <  x . longitud ;  i ++ )  {
-    x [ i ] . estilo . display  =  "ninguno" ;
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
-  tablinks  =  documento . getElementsByClassName ( "tablink" ) ;
-  para  ( i  =  0 ;  i  <  x . longitud ;  i ++ )  {
-    tablinks [ i ] . className  =  tablinks [ i ] . className . reemplazar ( "w3-gris-oscuro" ,  "" ) ;
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
   }
-  documento . getElementById ( nombreMenú ) . estilo . display  =  "bloque" ;
-  evt . currentTarget . firstElementChild . className  + =  "w3-gris-oscuro" ;
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
 }
-documento . getElementById ( "myLink" ) . haga clic en ( ) ;
-</ script >
+document.getElementById("myLink").click();
+</script>
 
-</ cuerpo >
-</ html >
+</body>
+</html>
